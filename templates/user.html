@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}
+    User Page
+{% endblock %}
+
+{% block content %}
+    <form action="#" method="post">
+        <p>Email:</p>
+        <input type="email" name="emailvalue" placeholder= "Enter your email" value = "{{email if email}}">
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+{% endblock %}
+
